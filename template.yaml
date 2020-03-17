@@ -201,7 +201,7 @@ Resources:
       Role: !GetAtt
         - LambdaFunctionRole
         - Arn
-      Runtime: nodejs8.10
+      Runtime: nodejs12.16.1
       Layers:
         - !Ref AWSSDKLayerArn
       Timeout: 60
